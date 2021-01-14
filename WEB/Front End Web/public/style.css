@@ -1,0 +1,35 @@
+#display { 
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+nav {
+    border-right: 1px solid black;
+    padding: 10px;
+}
+article {
+    padding: 10px;
+}
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+}
+@media(max-width: 800px) {
+    #display {
+        display: block;
+    }
+    nav {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+}
